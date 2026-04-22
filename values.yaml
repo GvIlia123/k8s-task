@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: proleax134/neoflex2-gvozdev
+  tag: latest
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30080
