@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: proleax134/neoflex2-gvozdev
-  tag: latest
+  tag: v1
 
 service:
   type: NodePort
